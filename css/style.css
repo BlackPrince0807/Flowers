@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Carter One', cursive;
+}
+
+.header {
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 100px;
+  border-bottom: 0.3px solid rgba(153, 153, 153, 0.24);
+  background-color: rgba(255, 255, 255, 0.836);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar .logo {
+  width: 150px;
+  height: 35px;
+}
+
+.navbar .logo .logo_img {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .menu .menu_items {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.navbar .menu .menu_items a {
+  font-size: 16px;
+  color: #777;
+  font-weight: normal;
+  padding-bottom: 16px;
+  border-bottom: 3.5px solid #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.navbar .menu .menu_items a:hover {
+  color: #000;
+}
+
+.navbar .menu .menu_items .fire {
+  color: #000;
+  border-bottom: 3.5px solid #46A358;
+}
+
+.navbar .gicon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .gicon .icon__nav-search {
+  margin-right: 15px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.navbar .gicon .icon__nav-cart {
+  margin-left: 15px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.navbar .gicon .btn_in {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 30px;
+  padding: 7px 25px;
+  background: #46A358;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.navbar .gicon .btn_in:hover {
+  background: #1E8449;
+}
+
+.navbar .gicon .btn_in i {
+  font-size: 20px;
+  margin-right: 3px;
+  color: #fff;
+}
+
+.navbar .gicon .btn_in b {
+  font-size: 15px;
+  color: #fff;
+  margin-left: 3px;
+}
+
+.header__body {
+  width: 85%;
+  margin: auto;
+}
+
+.header__body .header__body-all {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__body .header__body-all .header__body-text {
+  width: 45%;
+}
+
+.header__body .header__body-all .header__body-text b {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: #3D3D3D;
+}
+
+.header__body .header__body-all .header__body-text h1 {
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 70px;
+  color: #000000e3;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.header__body .header__body-all .header__body-text h1 span {
+  color: #46A358;
+}
+
+.header__body .header__body-all .header__body-text p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #727272;
+}
+
+.header__body .header__body-all .header__body-text .btn_shop {
+  margin-top: 40px;
+  border: none;
+  padding: 10px 30px;
+  background: #46A358;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 15px;
+  color: #FFFFFF;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.header__body .header__body-all .header__body-text .btn_shop:hover {
+  background: #1E8449;
+}
+
+.header__body .header__body-all .header__body-img {
+  width: 50%;
+}
+
+.header__body .header__body-all .header__body-img img {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
